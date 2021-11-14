@@ -1,0 +1,50 @@
+.product-banar{
+    background-image:url(https://user-images.githubusercontent.com/32226852/141057323-30c564ce-3998-4687-99d1-bc1e128e6074.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    color: rgb(1, 247, 255);
+}
+.service-banar h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* ............... */
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-gap:20px; */
+    grid-row-gap: 20px;
+}
+.package-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:40px;
+    /* grid-row-gap: 10px; */
+}
+
+@media only screen and (max-width: 480px) {
+	.service-container { 
+        grid-template-columns: repeat(1,1fr);
+     }
+}
+
+.card{
+    /* margin: auto; */
+    background-color: rgba(3, 26, 39, 0.726);
+    width: 350px;
+}
+
+p a i{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    /* color: rgb(0, 255, 255); */
+    color: crimson;
+}
+
